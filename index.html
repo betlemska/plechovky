@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#173DA5">
+<title>KUBÍČEK — Plechovkový magnát</title><meta name="description" content="Brand je základ. Proměň prázdnou plechovku v KUBÍČEK a staň se plechovkovým magnátem.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23173DA5'/%3E%3Ctext x='10' y='49' font-family='Arial' font-weight='900' font-size='48' fill='white'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body data-state="INTRO">
+<header><a class="wordmark" href="#" aria-label="KUBÍČEK — zpět na začátek">KUBÍČEK<span>®</span></a><span class="header-note">PLECHOVKOVÝ MAGNÁT</span><span class="edition">MINIHRA / 01</span></header>
+<main>
+<section id="intro" class="screen intro" aria-labelledby="intro-title">
+<div class="intro-copy"><p class="eyebrow">JEDNA PLECHOVKA. VELKÝ ZAČÁTEK.</p><h1 id="intro-title">PLECHOVKOVÝ<br>MAGNÁT<span class="period">.</span></h1><p class="lead">O osudu plechovky rozhoduje<br>právě tvoje značka.</p><button id="start" class="button light">ZAČÍT HRU</button><p class="micro">Přetáhni samolepku. Vytvoř produkt. Ovládni trh.</p></div>
+<div class="product-stage" aria-label="Tři produkty značky KUBÍČEK"><span class="stage-outline" aria-hidden="true"></span><img class="can coffee" src="assets/kubicek_cold_coffee_can_transparent.png" alt="KUBÍČEK Cold Coffee Original" draggable="false"><img class="can ice" src="assets/kubicek_ice_can_transparent.png" alt="KUBÍČEK ICE" draggable="false"><img class="can tea" src="assets/kubicek_ice_tea_can_transparent.png" alt="KUBÍČEK Ice Tea Lemon" draggable="false"><div class="stage-caption"><span>3 PRODUKTY</span><span>1 SILNÝ BRAND</span></div></div>
+<div class="intro-bottom"><span>ŽÍZEŇ? KUBÍČEK TO ZAŘÍDÍ.</span><span>ČESKO → POLSKO</span></div>
+</section>
+<section id="game" class="screen game" aria-labelledby="game-title" hidden>
+<div class="game-top"><div><p class="eyebrow">01 / Z PRODUKTU SE STÁVÁ ZNAČKA</p><h2 id="game-title" tabindex="-1">PŘETÁHNI BRAND<br>NA PLECHOVKU.</h2><p id="instruction">Dej KUBÍČEK tam, kam patří.</p></div><div class="step-stamp"><b>01</b><span>TVŮJ VELKÝ<br>ZAČÁTEK</span></div></div>
+<div class="workbench"><div class="brand-panel"><div class="panel-label"><span>01 — TVŮJ BRAND</span><span>UCHOP A TÁHNI</span></div><div class="sticker-home"><button id="sticker" aria-label="KUBÍČEK samolepka. Přetáhni na plechovku, nebo stiskni Enter." aria-describedby="control-help"><img src="assets/sticker_kubicek_ice_tea.png" alt="" draggable="false"></button></div><p id="control-help">Myší nebo prstem. Klávesnicí stiskni Enter.</p></div><div class="flow-arrow" aria-hidden="true">→</div><div class="can-panel"><div class="panel-label"><span>02 — TVŮJ PRODUKT</span><span id="product-state">BEZ BRANDU</span></div><div id="target" class="drop-target"><img id="empty-can" src="assets/plechovka_bez_brandu.jpg" alt="Prázdná plechovka bez značky" draggable="false"><img id="finished-can" src="assets/kubicek_ice_tea_can_transparent.png" alt="Hotová plechovka KUBÍČEK Ice Tea Lemon" draggable="false"><div class="target-guide" aria-hidden="true"><span>SEM PATŘÍ BRAND</span></div></div><p id="drop-hint">Stačí přiblížit. Brand se přichytí sám.</p></div></div>
+<div id="feedback" role="status" aria-live="polite">Jedna samolepka. První krok k miliardě.</div>
+</section>
+<section id="win" class="screen win" aria-labelledby="win-title" hidden><div id="money-rain" aria-hidden="true"></div><div class="win-copy"><p class="eyebrow">VÝHRA! KUBÍČEK TO ZAŘÍDIL.</p><h2 id="win-title" tabindex="-1">JSI PLECHOVKOVÝ<br>MAGNÁT.</h2><div class="fortune"><span id="fortune">1 000 000 000</span><span class="currency">Kč</span></div><p class="lead">Umíš vyrábět, brandovat<br>a distribuovat KUBÍČEK.</p><button id="restart" class="button light">HRÁT ZNOVU</button><button id="home" class="text-button">ZPĚT NA ZAČÁTEK</button><p class="micro">Herní odměna. Miliarda je nadsázka, brand je základ.</p></div><div class="win-product"><div class="winner-seal">VÝBORNĚ!<br><small>PLECHOVKA JE HOTOVÁ.</small></div><img src="assets/kubicek_ice_tea_can_transparent.png" alt="Tvoje hotová KUBÍČEK plechovka"><span>ICE TEA / LEMON / 330 ml</span></div></section>
+</main>
+<footer><span>KUBÍČEK ICE TEA · COLD COFFEE · ICE</span><span>BRAND JE ZÁKLAD.</span></footer>
+<div id="transition" aria-hidden="true" hidden><p>ŽÍZEŇ?<br>KUBÍČEK<br>TO ZAŘÍDÍ.</p></div>
+<noscript>Pro spuštění hry zapni v prohlížeči JavaScript.</noscript>
+</body></html>
